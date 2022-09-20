@@ -11,6 +11,7 @@ class Bird {
   var $conservationLevel;
   var $song = "Hey, I'm a bird, forget about it.";
   protected static $flying = "yes";
+  protected static $eggNum = 0;
 
   public const HABITATS = ["North America", "South America", "Africa", "Asia", "Australia", "Europe"];
 
@@ -46,6 +47,7 @@ class YellowBelliedFlyCatcher extends Bird {
   var $name = "yellow-bellied flycatcher";
   var $diet = "mostly insects.";
   var $song = "flat chilk";
+  protected static $eggNum = "3-4, sometimes 5";
 }
 
 class Kiwi extends Bird {
@@ -85,6 +87,7 @@ echo $bird2->birdDescription();
 //Show that instance count is functional
 echo "Bird count: " . Bird::$instance_count . "<br>";
 echo "Kiwi count: " . Kiwi::$instance_count . "<br>";
+echo "Fly Catcher count: " . YellowBelliedFlyCatcher::$instance_count . "<br><br>";
 
 //Create new instances
 $createBird = Bird::create();
@@ -92,6 +95,7 @@ $createKiwi = Kiwi::create();
 
 echo "Bird count(after creation): " . Bird::$instance_count . "<br>";
 echo "Kiwi count(after creation): " . Kiwi::$instance_count . "<br>";
+echo "Fly Catcher count(after creation): " . YellowBelliedFlyCatcher::$instance_count . "<br>";
 
 echo "<hr>";
 //Demonstrate use of constant variable
