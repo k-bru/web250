@@ -1,4 +1,5 @@
 <?php
+//Note for Charlie: I used a different naming convention rather than directly taking from the tutorial. Rather than wheels on bikes/unicycles I opted to use the number of wings/legs on various dragon types. Hopefully this will demonstrate I still understand the content, if you wish me to redo this with the examples from the tutorial, I can redo this. -Keegan
 
 // superclass
 class Beasts {
@@ -35,6 +36,7 @@ class Dragonkin extends Beasts {
   public $ability = 'Dragonfire, lightning breath, poison breath, increased defenses';
   public $weakness = 'Dragonbane weaponry, stabbing weapons, anti-fire magic';
 
+  //GETTERS AND SETTERS FOR DRAGONS
   public function setWings($wings) {
     $this->wings = $wings;
   }
