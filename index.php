@@ -36,6 +36,11 @@
       <li><a href="static-challenge/Bird.php">Bird.php</a></li>
       <li><a href="static-challenge/index.php">index.php</a></li>
     </ul>
+
+    <h2>Asgn03.5</h2>
+    <ul>
+      <li><a href="asgn03.5-bike-challenge/public/bicycles.php">Bicycle CSV Challenge</a></li>
+    </ul>
   </body>
 
 </html>

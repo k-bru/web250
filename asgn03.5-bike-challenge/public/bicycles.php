@@ -25,21 +25,6 @@
         <th>Condition</th>
         <th>Price</th>
       </tr>
-<<<<<<< HEAD
-
-      <tr>
-        <td>Brand</td>
-        <td>Model</td>
-        <td>Year</td>
-        <td>Category</td>
-        <td>Gender</td>
-        <td>Color</td>
-        <td>Weight</td>
-        <td>Condition</td>
-        <td>Price</td>
-      </tr>
-
-=======
 <?php
 
 $parser = new ParseCSV(PRIVATE_PATH . '/used_bicycles.csv');
@@ -61,7 +46,6 @@ $bike_array = $parser->parse();
         <td><?php echo '$' . h(sprintf('%01.2f', $bike->price)); ?></td>
       </tr>
       <?php } ?>
->>>>>>> dev
     </table>
   </div>
 

@@ -16,11 +16,7 @@ class Bicycle {
 
   public const GENDERS = ['Mens', 'Womens', 'Unisex'];
 
-<<<<<<< HEAD
-  protected const CONDITION = [
-=======
   protected const CONDITION_OPTIONS = [
->>>>>>> dev
     1 => 'Beat up',
     2 => 'Decent',
     3 => 'Good',
@@ -36,12 +32,6 @@ class Bicycle {
     $this -> category = $args['category'] ?? '';
     $this -> gender = $args['gender'] ?? '';
     $this -> color = $args['color'] ?? '';
-<<<<<<< HEAD
-    $this -> price = $args['price'] ?? 0;
-    $this -> weight_kg = $args['weight_kg'] ?? 0.0;
-    $this -> condition_id = $args['condition_id'] ?? '';
-    $this -> description = $args['description'] ?? 3;
-=======
     $this -> description = $args['description'] ?? '';
     $this -> price = $args['price'] ?? 0;
     $this -> weight_kg = $args['weight_kg'] ?? 0.0;
@@ -52,7 +42,6 @@ class Bicycle {
         $this->$k = $v;
       }
     }
->>>>>>> dev
   }
 
   //Functions for kilogram/pound translations
@@ -69,12 +58,6 @@ class Bicycle {
     return number_format($weight_lbs, 2) . ' lbs';
   }
 
-<<<<<<< HEAD
-  //Function for condition id checks/fallback
-  public function condition() {
-    if ($this -> condition_id > 0) {
-      return self::CONDITION[$this -> condition_id];
-=======
   public function set_weight_lbs($value) {
     $this->weight_kg = floatval($value) / 2.2046226218;
   }
@@ -83,7 +66,6 @@ class Bicycle {
   public function condition() {
     if ($this -> condition_id > 0) {
       return self::CONDITION_OPTIONS[$this -> condition_id];
->>>>>>> dev
     } else {
       return "Unknown";
     }
