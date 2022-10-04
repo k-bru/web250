@@ -41,6 +41,11 @@
     <ul>
       <li><a href="asgn03.5-bike-challenge/public/bicycles.php">Bicycle CSV Challenge</a></li>
     </ul>
+
+    <h2>Asgn04</h2>
+    <ul>
+      <li><a href="asgn04-bird-challenge/public/bird.php">Bird CSV Challenge</a></li>
+    </ul>
   </body>
 
 </html>

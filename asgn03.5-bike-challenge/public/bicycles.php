@@ -46,7 +46,7 @@ $bike_array = $parser->parse();
         <td><?php echo '$' . h(sprintf('%01.2f', $bike->price)); ?></td>
       </tr>
       <?php } ?>
-    </table>
+      </table>
   </div>
 
 </div>
