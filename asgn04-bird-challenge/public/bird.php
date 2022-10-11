@@ -25,7 +25,7 @@
       </tr>
 <?php
 
-$parser = new parsecsv(PRIVATE_PATH . '\wnc-birds.csv');
+$parser = new parsecsv(PRIVATE_PATH . '/wnc-birds.csv');
 $bird_array = $parser->parse();
 
 
