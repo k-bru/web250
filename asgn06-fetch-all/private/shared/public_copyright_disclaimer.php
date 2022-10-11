@@ -1,3 +1,3 @@
-<p>Copyright <?php echo date('Y'); ?>, Birds of WNC</p>
+<p>Copyright <?php echo date('Y'); ?>, Bird Gang</p>
 
-<p>Resource:  <a href="https://www.birds.cornell.edu/home/">Cornell Ornathology Lab.</a></p>
+<p>This page was created by and for birds.</p>

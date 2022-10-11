@@ -9,7 +9,7 @@ CREATE TABLE `birds` (
   `habitat` varchar(100) NOT NULL,
   `food` varchar(100) NOT NULL,
   `conservation_id` tinyint(4) NOT NULL,
-  `backyard_tips` text NOT NULL
+  `backyard_tips` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `birds` (`id`, `common_name`, `habitat`, `food`, `conservation_id`, `backyard_tips`) VALUES

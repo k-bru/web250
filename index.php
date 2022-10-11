@@ -46,6 +46,11 @@
     <ul>
       <li><a href="asgn04-bird-challenge/public/bird.php">Bird CSV Challenge</a></li>
     </ul>
+
+    <h2>Asgn06</h2>
+    <ul>
+      <li><a href="asgn06-fetch-all/public/bird.php">Bird DB Integration</a></li>
+    </ul>
   </body>
 
 </html>
