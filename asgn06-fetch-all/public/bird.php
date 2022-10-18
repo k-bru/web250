@@ -20,6 +20,7 @@
         <th>Food</th>
         <th>Conservation Level</th>
         <th>Backyard Tips</th>
+        <th>Details</th>
       </tr>
 <?php
 $birds = Bird::find_all();
@@ -31,6 +32,7 @@ $birds = Bird::find_all();
         <td><?php echo h($bird->food); ?></td>
         <td><?php echo h($bird->conservation()); ?></td>
         <td><?php echo h($bird->backyard_tips); ?></td>
+        <td><a href="detail.php?id=<?php echo $bird->id; ?>">View</a></td>
       </tr>
       <?php } ?>
       </table>
