@@ -51,6 +51,11 @@
     <ul>
       <li><a href="asgn06-fetch-all/public/bird.php">Bird DB Integration</a></li>
     </ul>
+
+    <h2>Asgn07</h2>
+    <ul>
+      <li><a href="asgn07-crud/chain_gang/public/staff/bicycles/index.php">Bike CRUD</a></li>
+    </ul>
   </body>
 
 </html>
