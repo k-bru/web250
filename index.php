@@ -56,6 +56,16 @@
     <ul>
       <li><a href="asgn07-crud/chain_gang/public/staff/bicycles/index.php">Bike CRUD</a></li>
     </ul>
+
+    <h2>Asgn08</h2>
+    <ul>
+      <li><a href="asgn08-bird-crud/chain_gang/public/staff/birds/index.php">Bird CRUD</a></li>
+    </ul>
+
+    <h2>Asgn09</h2>
+    <ul>
+      <li><a href="asgn09-admin-to-users/chain_gang/public/staff/index.php">Admin to Users</a></li>
+    </ul>
   </body>
 
 </html>
